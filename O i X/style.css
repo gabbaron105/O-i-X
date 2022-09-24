@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 170, 248);
+
+
+}
+
+#wszystko {
+    margin-left: 320px;
+
+}
+
+#wybiez {
+    margin-top: 100px;
+    margin-left: 500px;
+    color: white;
+}
+
+header button {
+
+    margin-top: 70px;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+#o {
+    margin-left: 80px;
+}
+
+#gra {
+    margin-top: 80px;
+    margin-left: 400px;
+    background-color: rgb(0, 170, 248);
+
+}
+
+.gra {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+#z_1 {
+    padding-left: 0;
+}
+
+#o {
+    background-image: url('o.jpg');
+    background-size: contain;
+}
+
+#x {
+    background-image: url('x.jpg');
+    background-size: contain;
+}
+
+div button {
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.g_x {
+    background-image: url('x.jpg');
+    background-size: contain;
+}
+
+.g_o {
+    background-image: url('o.jpg');
+    background-size: contain;
+}
+
+.start {
+    color: rgb(0, 170, 248);
+
+}
+
+.koniec {
+    color: rgb(235, 200, 6);
+    position: relative;
+    left: 330px;
+    bottom: 550px;
+    width: 600px;
+    height: 600px;
+    padding-top: 120px;
+    text-align: center;
+    animation: powieksz 5s forwards;
+
+
+}
+
+@keyframes powieksz {
+    0% {
+        font-size: 0;
+        color: rgb(250, 2, 2);
+    }
+
+    70% {
+        font-size: 100px;
+    }
+
+    100% {
+        font-size: 75px;
+        color: rgb(17, 0, 255);
+    }
+}
+
+#reset {
+    width: 50px;
+    height: 30px;
+    border-radius: 35%;
+    margin-left: 350px;
+    background-image: url(res.jpg);
+    background-size: contain;
+    position: relative;
+    bottom: 40px;
+}
+
+
+h2 {
+    font-size: 35px;
+    margin-left: -40px;
+}
